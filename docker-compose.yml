@@ -55,11 +55,11 @@ networks:
         ipam:
             driver: default
             config:
-                - subnet: 1.2.3.0/29
+                - subnet: 1.2.3.0/28
                   gateway: 1.2.3.4
     tnet1:
         ipam:
             driver: default
             config:
-                - subnet: 173.111.111.250/32
+                - subnet: 173.111.111.250/30
                   gateway: 173.111.111.250
